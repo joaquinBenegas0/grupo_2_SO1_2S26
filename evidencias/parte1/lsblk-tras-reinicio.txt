@@ -1,0 +1,10 @@
+NAME         FSTYPE      FSVER    LABEL UUID                                   FSAVAIL FSUSE% MOUNTPOINTS
+sda                                                                                           
+├─sda1                                                                                        
+├─sda2       xfs                        88396f95-d8d8-4ac1-8c7f-5d72ad668af1      1,6G    19% /boot
+└─sda3       LVM2_member LVM2 001       qZ7kgi-Fgb1-07di-z8Qu-l8Vm-YzXb-SnX1iX                
+  ├─rlm-root xfs                        57cfc5ef-bf83-4b10-9107-cd8235b46632     22,4G    10% /
+  └─rlm-swap swap        1              272ab7e0-b148-42c2-925f-72265fbf0bb9                  [SWAP]
+sdb                                                                                           
+└─sdb1       ext4        1.0      LFS   5c48e8b5-537e-47ff-9c07-d841ac5d57a3     37,1G     0% /mnt/lfs
+sr0                                                                                           
