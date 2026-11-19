@@ -8,6 +8,4 @@
 |2026-10-15|Ej. 1: version-check.sh|Joaquín Benegas, Nicolás Rodríguez|Libro LFS 13.1 systemd, fecha de inicio 2026-10-15|ERROR: yacc is NOT Bison (el grupo Development Tools instala byacc)|dnf remove byacc y wrapper /usr/bin/yacc que ejecuta bison -y, según el libro|Sin errores|evidencias/parte1/version-check.txt|
 |2026-10-15|Ej. 1: erratas|Joaquín Benegas, Nicolás Rodríguez|Sin erratas generales registradas. Avisos de seguridad de Expat y Aspell revisados el 15/10/2026.|La página antigua de avisos de seguridad ya no se actualiza.|Se consultó la plataforma nueva, filtrando por LFS 13.1.|Sin erratas generales. Se identificaron avisos de Expat y Aspell.|https://www.linuxfromscratch.org/lfs/errata/13.1-systemd/ y https://www.linuxfromscratch.org/advisories/|
 |2026-10-15|Ej. 1: snapshot inicial|Joaquín Benegas, Nicolás Rodríguez|Snapshot 00-host-listo-version-check-ok con la VM apagada, punto de retorno antes de compilar|—|—|Snapshot creado|evidencias/parte1/snapshot00.png|
-
-
-
+|2026-11-06|Ej. 1: cap. 3, descarga de paquetes|Joaquín Benegas|Lista wget-list-systemd y md5sums de la ruta 13.1-systemd del libro|El filtro `grep -v OK` no sirvió porque el sistema está en español ("La suma coincide")|Se filtró por `coincide`|94 archivos (628 MB), todos los md5 coinciden|evidencias/parte1/cap3-descarga-paquetes.png, cap3-md5sums-ok.png|
